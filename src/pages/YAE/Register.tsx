@@ -71,7 +71,7 @@ const Register = () => {
                 headers: { "Content-Type": "multipart/form-data" },
             });
 
-        //   console.log("res", response)
+          console.log("res", response)
 
         //   if (response.data)
           toast.success("Registration Successful!");
