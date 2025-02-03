@@ -55,7 +55,7 @@ const Footer = () => {
                 <FaInstagram />
             </a>
             
-            <a className=" text-[25px] md:text-[30px] mr-[5px] md:mr-[10px]" href="https://linkedin.com/in/akeem-suara">
+            <a className=" text-[25px] md:text-[30px] mr-[5px] md:mr-[10px]" href="">
                 <FaLinkedinIn />
             </a> 
         </div>
