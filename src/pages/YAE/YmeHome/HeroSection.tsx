@@ -33,6 +33,8 @@ const HeroSection: React.FC = () => {
           >
             Apply Now
           </Link>
+
+          <p className="mt-[20px] text-[13px] md:text-[15px] font-semibold">(Commitment Fee: ₦20,000)</p>
         </motion.div>
       </motion.div>
     </section>

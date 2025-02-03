@@ -15,9 +15,9 @@ const TopicsSection = () => (
           "Balanced Spiritual Life",
           "Technology & Social Media in Ministry",
           "Surviving Tough Times",
-          "And lots more",
+          "And lots more...",
         ].map((topic, index) => (
-          <motion.li key={index} className="p-4 bg-gray-200 rounded-lg shadow-md cursor-pointer hover:bg-black hover:text-white transition-all duration-900 ease-in-out"
+          <motion.li key={index} className="p-4 bg-gray-20 rounded-lg shadow-m  hover:bg-blac hover:text-whit transition-all duration-900 ease-in-out font-bold"
             whileHover={{ scale: 1.05 }}>
             {topic}
           </motion.li>
