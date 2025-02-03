@@ -99,7 +99,7 @@ const Header = () => {
         {/* {
             dropdown ? */}
 
-            <div className={` ${dropdown ? 'transform translate-y-0' : 'transform -translate-y-full'} lg:hidden w-[65%] h-[100vh] absolute bg-whit backdrop-blur-lg bg-[#000] bg-opacity-6 top-0 transition-all ease-in-out z-60 duration-300 left-0`} onClick={showDropdown}>
+            <div className={` ${dropdown ? 'transform translate-y-0' : 'transform -translate-y-full'} lg:hidden w-[65%] h-[100vh] absolute bg-whit backdrop-blur-lg bg-[#414141]   bg-opacity-6 top-0 transition-all ease-in-out z-60 duration-300 left-0`} onClick={showDropdown}>
 
                 <div className="lg:hidden text-[22px] cursor-pointer  ml-[6px] shadow-md text-[#23a1db]  z-50 p-1 rounded-md bg-white absolute right-[15px] top-[25px]" onClick={showDropdown}>
                     <MdClose /> 
