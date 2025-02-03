@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../../assets/logo/ayo-awe-logo.jpeg";
+import logo from "../../assets/logo/taami-logo.jpeg";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { MdClose } from "react-icons/md";
 import { NavLink } from 'react-router-dom';
