@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import HomeLayout from "../layout/HomeLayout";
 import { lazy } from "react";
 import YaeLayout from "../layout/YaeLayout";
+import YmeHomeComp from "../pages/YAE/YmeHome/YmeHomeComp";
 
 
 const AyoAweHome = lazy(() => import("../pages/Home/AyoAweHome"))
@@ -21,15 +22,19 @@ export const element = createBrowserRouter([
         ]
     },
     {
-        path: "/yme/register",
+        path: "/yme",
         element: <YaeLayout />,
         children: [
             {
                 index: true,
+                element: <YmeHomeComp />
+            },
+            {
+                path: "register",
                 element: <Register />
             },
             {
-               path: "success",
+               path: "register/success",
                element: <Thanks /> 
             }
         ]

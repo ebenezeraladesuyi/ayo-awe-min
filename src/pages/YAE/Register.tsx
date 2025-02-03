@@ -21,7 +21,7 @@ const Register = () => {
         email: "",
         phoneNumber: "",
         whatsapp: "",
-        address: "",
+        // address: "",
         city: "",
         state: "",
         country: "",
@@ -86,7 +86,7 @@ const Register = () => {
             email: "",
             phoneNumber: "",
             whatsapp: "",
-            address: "",
+            // address: "",
             city: "",
             state: "",
             country: "",
@@ -149,7 +149,7 @@ const Register = () => {
                     
                     {/* <div className="flex flex-col gap-2">
                         <p className="text-[16px] md:text-[20px]">Home Address</p> */}
-                        <input type="text" className="w-full h-[45px] border-gray-400 border-[1px] rounded-[6px] text-[12px] md:text-[15px] outline-none p-[5px]" placeholder="Home Address" name="address" value={formData.address} onChange={handleChange}  required />
+                        {/* <input type="text" className="w-full h-[45px] border-gray-400 border-[1px] rounded-[6px] text-[12px] md:text-[15px] outline-none p-[5px]" placeholder="Home Address" name="address" value={formData.address} onChange={handleChange}  required /> */}
                     {/* </div>
                     <div className="flex flex-col gap-2">
                         <p className="text-[16px] md:text-[20px]">City</p> */}
