@@ -17,9 +17,9 @@ const TopicsSection = () => (
           "Surviving Tough Times",
           "And lots more...",
         ].map((topic, index) => (
-          <motion.li key={index} className="p-4 bg-gray-20 rounded-lg shadow-m  hover:bg-blac hover:text-whit transition-all duration-900 ease-in-out font-bold"
+          <motion.li key={index} className="px-4 py-2 bg-gray-20 rounded-lg shadow-m  hover:bg-blac hover:text-whit transition-all duration-900 ease-in-out font-bold"
             whileHover={{ scale: 1.05 }}>
-            {topic}
+            - {topic}
           </motion.li>
         ))}
       </ul>
