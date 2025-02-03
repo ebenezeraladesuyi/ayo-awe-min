@@ -213,7 +213,7 @@ const Register = () => {
                         <p>preview</p>
                     </div> */}
 
-                    <p className="text-[16px] md:text-[20px]">Please, upload a passport size image</p>
+                    <p className="text-[16px] md:text-[20px]">Please, upload a passport size image <br /><span className="text-red-400 text-[10px] md:text-[12px] leading-[10px]">Image file type must be either .jpg/.jpeg/png; <br /> Image size must not be more than 10mb </span></p>
                     <input type="file" onChange={handleImageChange} accept="image/*" className="border-[1px] border-gray-400 p-[6px] py-[10px] rounded-lg cursor-pointer" />
                     {preview && <img src={preview} alt="Preview" className="w-[270px] h-[250px] object-contain border-[1px] border-gray-400 rounded-lg mt-2 p-2" />}
 
