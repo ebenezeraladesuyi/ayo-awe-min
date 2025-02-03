@@ -214,7 +214,7 @@ const Register = () => {
                     </div> */}
 
                     <p className="text-[16px] md:text-[20px]">Please, upload a passport size image</p>
-                    <input type="file" onChange={handleImageChange} accept="image/*" className="border-[1px] border-gray-400 p-[6px] py-[10px] rounded-lg" />
+                    <input type="file" onChange={handleImageChange} accept="image/*" className="border-[1px] border-gray-400 p-[6px] py-[10px] rounded-lg cursor-pointer" />
                     {preview && <img src={preview} alt="Preview" className="w-[270px] h-[250px] object-contain border-[1px] border-gray-400 rounded-lg mt-2 p-2" />}
 
                     <button className="w-full bg-[#000] border-none text-white hover:bg-[#2a2a2a]" type="submit">
