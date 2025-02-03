@@ -6,7 +6,7 @@ import { ScrollToTop } from "../component/block"
 
 const YaeLayout = () => {
   return (
-    <div>
+    <div className="bg-white">
       <ScrollToTop />
         <Header />
 

@@ -6,7 +6,8 @@ import { ScrollToTop } from "../component/block"
 
 const HomeLayout = () => {
   return (
-    <div><ScrollToTop />
+    <div className="bg-white">
+      <ScrollToTop />
         <Header />
 
         <Outlet />
