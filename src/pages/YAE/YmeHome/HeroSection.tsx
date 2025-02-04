@@ -18,7 +18,7 @@ const HeroSection: React.FC = () => {
         </h1>
 
         <p className="mt-4 text-lg md:text-xl">
-          Join the <span className="text-orange-400 font-bold">YOUNG MINISTERS EQUIP</span> program and be prepared for the unique calling God has placed on your life.
+          Join the <span className="text-[#FFA500] font-bold">YOUNG MINISTERS EQUIP</span> program and be prepared for the unique calling God has placed on your life.
         </p>
 
         <motion.div 
@@ -29,7 +29,7 @@ const HeroSection: React.FC = () => {
         >
           <Link 
             to="/yme/register">
-           <button className="px-6 py-3 bg-[#fff] hover:bg-[#e9e7e7] text-black font-bold text-lg rounded-lg shadow-md transition duration-800 ease-in-out animate-bounce mt-[20px"
+           <button className="px-6 py-3 bg-[#FFA500] hover:bg-[fff] text-black font-bold text-lg rounded-lg shadow-md transition duration-800 ease-in-out animate-bounce mt-[20px"
             >
                 Apply Now
             </button>
