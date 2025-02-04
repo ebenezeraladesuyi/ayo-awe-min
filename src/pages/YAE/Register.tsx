@@ -112,10 +112,10 @@ const Register = () => {
         {/* <div className="bg-black w-full h-full opacity-70 absolute top-0 left-0"></div> */}
         <div className="w-[90%] flex justify-center items-center  ">
 
-            <div className="w-full md:w-[60%] lg:w-[40%]rounded-[10px] bg-[#b9b7b7] shadow-lg p-4 flex flex-col gap-4 mt-[50px]"> 
+            <div className="w-full md:w-[60%] lg:w-[40%]rounded-[10px] bg-[#b9b7b7] shadow-lg p-4 flex flex-col gap-4 mt-[50px]  mt-[60px] md:mt-[40px]"> 
                 <p className="font-bold text-[18px] md:text-[22px] text-center">Young Ministers Equip Registration Form</p>
 
-                <form onSubmit={handleSubmit} action="" className="flex flex-col gap-3 mt-[60px] md:mt-[40px] ">
+                <form onSubmit={handleSubmit} action="" className="flex flex-col gap-3 ">
                     {/* <div className="flex flex-col gap-2">
                         <p className="text-[16px] md:text-[20px]">Title</p> */}
                         <input type="text" className="w-full h-[45px] border-gray-400 border-[1px] rounded-[6px] text-[13px] md:text-[16px] outline-none bg-white  p-[5px] text-black" placeholder="Title i.e. Pastor/Mr/Mrs etc."
