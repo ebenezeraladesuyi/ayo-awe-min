@@ -1,4 +1,4 @@
-import React from 'react'
+import { useState } from 'react'
 import logo from "../../assets/logo/taami-logo.jpeg";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { MdClose } from "react-icons/md";
@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
 
-    const [dropdown, setDropdown] = React.useState(false)
+    const [dropdown, setDropdown] = useState(false)
 
     const showDropdown = () => {
         setDropdown(!dropdown)
