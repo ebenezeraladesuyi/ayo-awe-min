@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 export const CTASection = () => {
@@ -14,13 +14,13 @@ export const CTASection = () => {
           Register Now
         </Button> */}
         
-        <NavLink to="/yme/register" >
+        <Link to="/yme/register" >
         <button 
-            className="mt-6 px-6 py-3 bg-[#202020] text-white font-semibold rounded-lg shadow-lg transition duration-800 ease-in-out animate-bounce"
+            className="mt-6 px-6 py-3 bg-[#FFA500] text-white font-semibold rounded-lg shadow-lg transition duration-800 ease-in-out animate-bounce"
           >
             Apply Now
         </button>
-        </NavLink>
+        </Link>
       </section>
     );
   };
