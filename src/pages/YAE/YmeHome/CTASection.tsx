@@ -13,11 +13,13 @@ export const CTASection = () => {
         >
           Register Now
         </Button> */}
-        <NavLink 
-            to="/yme/register" 
+        
+        <NavLink to="/yme/register" >
+        <button 
             className="mt-6 px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg shadow-lg transition duration-800 ease-in-out animate-bounce"
           >
             Apply Now
+        </button>
         </NavLink>
       </section>
     );

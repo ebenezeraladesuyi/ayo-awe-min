@@ -28,10 +28,11 @@ const HeroSection: React.FC = () => {
           className="mt-6"
         >
           <Link 
-            to="/yme/register" 
-            className="px-6 py-3 bg-orange-500 hover:bg-white text-black font-bold text-lg rounded-lg shadow-md transition duration-800 ease-in-out animate-bounce mt-[20px"
-          >
-            Apply Now
+            to="/yme/register">
+           <button className="px-6 py-3 bg-orange-500 hover:bg-white text-black font-bold text-lg rounded-lg shadow-md transition duration-800 ease-in-out animate-bounce mt-[20px"
+            >
+                Apply Now
+            </button>
           </Link>
 
           <p className="mt-[20px] text-[13px] md:text-[15px] font-semibold">(Commitment Fee: ₦20,000)</p>
