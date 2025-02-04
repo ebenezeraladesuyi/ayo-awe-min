@@ -29,7 +29,7 @@ const HeroSection: React.FC = () => {
         >
           <Link 
             to="/yme/register">
-           <button className="px-6 py-3 bg-orange-500 hover:bg-white text-black font-bold text-lg rounded-lg shadow-md transition duration-800 ease-in-out animate-bounce mt-[20px"
+           <button className="px-6 py-3 bg-[#fff] hover:bg-[#e9e7e7] text-black font-bold text-lg rounded-lg shadow-md transition duration-800 ease-in-out animate-bounce mt-[20px"
             >
                 Apply Now
             </button>
