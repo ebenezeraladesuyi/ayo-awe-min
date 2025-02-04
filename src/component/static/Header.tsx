@@ -182,7 +182,7 @@ const Header = () => {
     };
 
     return (
-        <div className="w-full h-[80px] lg:h-[130px] flex justify-center items-center shadow-md font-pop sticky z-40 bg-white text-[#000] lg:shadow-m">
+        <div className="w-full h-[80px] lg:h-[130px] flex justify-center items-center shadow-md font-pop fixed z-40 bg-white text-[#000] lg:shadow-m">
             <div className="w-[90%] lg:w-[60% h-full flex justify-between items-center pl-[20px pr-[30px rounded-[50px]">
                 <NavLink to='/'>
                     <div className='lg:hidden p-1 rounded-md shadow-m w-[100px] md:w-[110px] z-40 h-auto'>
