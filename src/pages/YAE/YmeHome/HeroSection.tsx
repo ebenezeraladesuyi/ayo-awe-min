@@ -13,7 +13,7 @@ const HeroSection: React.FC = () => {
         transition={{ duration: 1 }} 
         className="relative z-10 text-white max-w-3xl "
       >
-        <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
+        <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mt-[70px] md:mt-[50px]">
           Equip. Train. Impact. 
         </h1>
 
