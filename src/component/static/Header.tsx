@@ -14,8 +14,8 @@ const Header = () => {
     }
 
   return (
-    <div className={`w-full h-[65px] lg:h-[130px flex justify-center items-center shadow-m font-pop fixed z-40 bg-whit text-white  lg:shadow-m`}>
-        <div className="w-[90%] lg:w-[60%] bg-[#000] h-full flex flex-co justify-between items-center  pl-[20px] lg:ml-0 rounded-[50px] pr-[30px] pl-[10px mt-[20px]">
+    <div className={`w-full h-[80px] lg:h-[130px flex justify-center items-center shadow-md font-pop sticky z-40 bg-white text-[#000]  lg:shadow-m`}>
+        <div className="w-[90%]  lg:w-[60% bg-[#000 h-full flex flex-co justify-between items-center  pl-[20px lg:ml-0 rounded-[50px pr-[30px pl-[10px mt-[20px">
 
             {/* <div className='hidden w-[100%] h-full lg:flex justify-between items-center'>
 
@@ -28,7 +28,7 @@ const Header = () => {
             {/* <div className='flex justify-between items-center w-full'> */}
             <NavLink to='/'>
                 <div className='lg:hidde p-1 rounded-md shadow-m w-[100px md: w-[110px] z-40 h- py-0'>
-                    <img className="w-full rounded-[50px] ml-[10px] " src={logo} alt="ayo-awe-logo" />
+                    <img className="w-full rounded-[10px] ml-[10px] " src={logo} alt="ayo-awe-logo" />
                     {/* <h5 className='text-black font-bold'>AYO AWE</h5> */}
                 </div>
             </NavLink>
@@ -43,7 +43,7 @@ const Header = () => {
             {/* <h4 className='text-[17px] z-50 shadow-md text-white bg-opacity-40 rounded-[30px] relative p-1 px-3 rounded-m bg-black'>DanWilliams Consult</h4> */}
 
             <div className='lg:bg-whit lg:bg-opacity-4 rounded-[30px] lg:shadow-m p-3'>
-                <li className="hidden lg:flex items-center gap-5 md:gap-10 text-[15px] transition-all duration-500 ease-in-out text-white">
+                <li className="hidden lg:flex items-center gap-5 md:gap-10 text-[15px] transition-all duration-500 ease-in-out text-whit">
                     <NavLink to="/">
                         <ol className='text-[#063e60 hover:text-[#bfc0c0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Home</ol>
                     </NavLink>

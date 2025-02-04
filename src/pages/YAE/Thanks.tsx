@@ -5,7 +5,7 @@ import { MdVerified } from "react-icons/md";
 const Thanks = () => {
   return (
     <div className="w-full h-screen flex justify-center items-center">
-        <div className="w-[90%] md:w-[50%] lg:w-[35%] bg-white rounded-[20px] p-4 flex flex-col justify-center items-center gap-2 shadow-lg">
+        <div className="w-[90%] md:w-[50%] lg:w-[35%]  rounded-[20px] p-4 flex flex-col justify-center items-center gap-2 shadow-lg bg-gray-300">
             <div className="text-[100px]">
                 <MdVerified />
             </div>
